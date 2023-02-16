@@ -7,9 +7,10 @@
 .app{
   background-image: url(https://products.ls.graphics/mesh-gradients/images/72.-Sazerac.jpg);
   background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
-  /* width: 100vw;
-  height: 100vh; */
+  width: 100vw;
+  /* height: 114vh; */
 }
 
 *{

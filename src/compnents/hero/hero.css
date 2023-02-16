@@ -17,6 +17,7 @@
 }
 
 .hero-wrapper{
+    margin-top: 50px;
     flex-direction: column;
     gap: 40px;
 }

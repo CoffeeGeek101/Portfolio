@@ -20,6 +20,7 @@
 
 .navbar-links > p{
     font-weight: 300;
+    -webkit-transition: 0.1s;
 }
 
 
@@ -28,3 +29,24 @@
     font-size: 25px;
 }
 
+.a:hover{
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-left: 10px ;
+    -webkit-transition: 0.3s ease;
+}
+.b:hover{
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 0 10px ;
+    -webkit-transition: 0.3s ease;
+}
+.c:hover{
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-right: 10px ;
+    -webkit-transition: 0.3s ease;
+}

@@ -18,51 +18,74 @@
 
 .hero-wrapper{
     margin-top: 50px;
+    display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
+
+.hero-element-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 105px;
+    position: relative;
+}
+
 .hero-container{
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     height: 80vh;
-    justify-content: center;
 }
 .role{
     font-weight: 600;
-    font-size: 90px;
+    font-size: clamp(30px 8vw 90px);
     font-family: hero;
 }
 
 
 .role-1{
-    font-size: 90px;
+    font-size: clamp(25px,6vw,70px);
     font-family: hero;
-   
+    padding: 10px 0;
+    -webkit-transition: 0.5s ease;
+    white-space: nowrap;
+    position: absolute;
     /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
 }
 .role-2{
-    font-size: 90px;
+    font-size: clamp(30px,8vw,90px);
     font-family: hero-ii;
-  
+    -webkit-transition: 0.5s ease;
+    white-space: nowrap;
+    position: absolute;
+    /* padding: 5px 0; */
     /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
 }
 .role-4{
-    font-size: 90px;
+    font-size: clamp(30px,8vw,100px);
     font-family: hero-iii;
-    
+    -webkit-transition: 0.5s ease;
+    white-space: nowrap;
+    position: absolute;
     /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
 }
 .role-3{
-    font-size: 90px;
+    font-size: clamp(25px,10vw,80px);
     font-family: hero-iv;
-    
+    -webkit-transition: 0.5s ease;
+    white-space: nowrap;
+    position: absolute;
     /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
 }
 
 .name{
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: -20px;
+    /* margin-bottom: -10px; */
 }
 
 em{
@@ -71,7 +94,7 @@ em{
 
 .hero-des{
     margin-top: -20px;
-    font-size: 15px;
+    font-size: clamp(10px,2vw,15px);
     font-weight: 300;
 }
 

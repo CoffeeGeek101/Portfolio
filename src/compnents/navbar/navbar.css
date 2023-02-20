@@ -3,6 +3,10 @@
     src: url(../../assets/CallistaItalic.ttf);
   }
 
+.navbar-container{
+    padding: 30px 40px;
+}
+
 .navbar-wrapper{
     display: flex;
     justify-content: space-around;
@@ -10,21 +14,39 @@
 
 .navbar-links{
     display: flex;
-    justify-content: space-around;
-    width: 50%;
+    align-items: center;
+    gap: 30px;
 }
 
-.navbar-container{
-    padding: 50px 5px;
+.nav-signature{
+    display: none;
 }
 
-.navbar-links > p{
+.nav-link{
     font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
+@media only screen and (min-width: 700px){
+    .nav-signature{
+        display:block;
+    }
+    .nav-signature > p{
+        font-family: Brainer;
+        font-size: 20px;
+    }
+    .nav-link{
+        font-weight: 200;
+        letter-spacing: 2px;
+        font-size: 17px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .navbar-container{
+        padding: 40px 20px;
+    }
 
-.nav-signature > p{
-    font-family: Brainer;
-    font-size: 25px;
 }
-

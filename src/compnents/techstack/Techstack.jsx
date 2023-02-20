@@ -5,22 +5,6 @@ import {motion} from 'framer-motion'
 import code from '../../assets/techelement.png'
 export default function Techstack() {
 
-// const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//  useEffect(()=>{
-//     // let iteration = 0;
-//     intervalRef.current = setInterval(()=>{
-//       e.target.innerText = e.target.innerText.split("").map((letters)=>{
-//         return letters[Math.floor(Math.random() * 26)]
-//       }).join("");
-//     },30)
-    
-//   },letters)
-
-const [title, setTitle] = useState("TechStack");
-const [letters, setLetters] = useState("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-const intervalRef = useRef(null);
-
-
   return (
     <>
     <motion.img 
@@ -33,7 +17,7 @@ const intervalRef = useRef(null);
     className='techstack-hero-logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png?20220125121207"/>
     <div className='techstack-container'>
       <div className='techstack-wrapper'>
-        <p className='techstack-title'>{title}.</p>
+        <p className='techstack-title'>TechStack.</p>
         <p className='techstack-des'>Technologies I use for my personal & professional works.</p>
         <div className='techstack'>
             <div className='techstack-element'>

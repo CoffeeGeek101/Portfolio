@@ -6,9 +6,9 @@ export default function Navbar() {
     <div className="navbar-container">
       <div className="navbar-wrapper">
         <div className="navbar-links">
-          <p className='nav-link a'>About me</p>
-          <p className='nav-link b'>My Projects</p>
-          <p className='nav-link c'>Contact me</p>
+          <p className='nav-link a'>About Me.</p>
+          <p className='nav-link b'>My Projects.</p>
+          <p className='nav-link c'>Contact Me.</p>
         </div>
         <div className="nav-signature">
           <p>Shoumyadeep</p>

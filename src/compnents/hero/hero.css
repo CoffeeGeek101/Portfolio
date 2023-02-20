@@ -17,84 +17,64 @@
 }
 
 .hero-wrapper{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    gap: 20px;
+    padding: 0 20px;
+    /* align-items: center; */
 }
 
 .hero-element-wrapper{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 105px;
-    position: relative;
+    max-width: 400px;
 }
 
 .hero-container{
     display: flex;
     flex-direction: column;
-    height: 80vh;
-}
-.role{
-    font-weight: 600;
-    font-size: clamp(30px 8vw 90px);
-    font-family: hero;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
 }
 
 
 .role-1{
-    font-size: clamp(25px,6vw,70px);
+    font-size: 25px;
     font-family: hero;
-    padding: 10px 0;
-    -webkit-transition: 0.5s ease;
-    white-space: nowrap;
-    position: absolute;
-    /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
+    /* padding: 7.5px 0; */
+    /* -webkit-transition: 0.2s; */
 }
 .role-2{
-    font-size: clamp(30px,8vw,90px);
+    font-size: 30px;
     font-family: hero-ii;
-    -webkit-transition: 0.5s ease;
-    white-space: nowrap;
-    position: absolute;
-    /* padding: 5px 0; */
-    /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
+    -webkit-transition: 0.2s;
 }
 .role-4{
-    font-size: clamp(30px,8vw,100px);
+    font-size: 30px;
     font-family: hero-iii;
-    -webkit-transition: 0.5s ease;
-    white-space: nowrap;
-    position: absolute;
-    /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
+    /* -webkit-transition: 0.2s; */
 }
 .role-3{
-    font-size: clamp(25px,10vw,80px);
+    font-size: 30px;
     font-family: hero-iv;
-    -webkit-transition: 0.5s ease;
-    white-space: nowrap;
-    position: absolute;
-    /* text-shadow: 1px 2px 10px rgb(255, 255, 255); */
+    /* -webkit-transition: 0.2s; */
 }
 
 .name{
     font-weight: 600;
-    font-size: 20px;
-    /* margin-bottom: -10px; */
+    /* font-size: 20px; */
 }
 
 em{
-    text-decoration: underline;
+    background: -webkit-linear-gradient(#ff51f6, #0038a7ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-des{
-    margin-top: -20px;
-    font-size: clamp(10px,2vw,15px);
+    /* margin-top: -20px; */
     font-weight: 300;
 }
 
@@ -123,24 +103,87 @@ em{
 }
 
 .hero-logo{
-    width: 100px;
+    max-width: 150px;
     margin-bottom: -30px;
 }
 
 .resume-redirect{
     margin-top: 30px;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border: solid 1px rgba(76, 0, 255, 0.399);
     border-radius: 2px;
     box-shadow: 1px 2px 10px -2px rgba(76, 0, 255, 0.244);
-    letter-spacing: 1px;
-    font-weight: 300;
+    /* letter-spacing: 1px; */
+    font-weight: 600;
+    font-size: 13px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
+    max-width: 125px;
+    white-space:nowrap;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
 }
 .resume-redirect:hover{
     cursor: pointer;
     background-color: rgba(83, 0, 172, 0.82);
     color: #ffffff;
+}
+
+.customer-needs{
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+
+.customer-logo{
+font-size:  15px !important;
+color: #c170ffd4;
+}
+
+.resume-redirect:hover .customer-logo{
+    color: #fff !important;
+}
+
+@media only screen and (min-width:700px){
+    .hero-wrapper{
+        /* margin-top: 50px; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .hero-element-wrapper{
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        align-items: center;
+    }
+    .hero-des{
+        /* margin-top: -20px; */
+        font-weight: 300;
+
+    }
+    .role-1{
+        font-size: 41px;
+        font-family: hero;
+        /* padding: 7.5px 0; */
+        /* -webkit-transition: 0.2s; */
+    }
+    .role-2{
+        font-size: 48px;
+        font-family: hero-ii;
+        -webkit-transition: 0.2s;
+    }
+    .role-4{
+        font-size: 48px;
+        font-family: hero-iii;
+        /* -webkit-transition: 0.2s; */
+    }
+    .role-3{
+        font-size: 48px;
+        font-family: hero-iv;
+        /* -webkit-transition: 0.2s; */
+    }
+    
 }

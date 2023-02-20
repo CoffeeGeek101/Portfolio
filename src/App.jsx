@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './compnents/navbar/Navbar'
 import Hero from './compnents/hero/Hero'
 import Techstack from './compnents/techstack/Techstack'
+import Projects from './compnents/project_caro/Projects'
 function App() {
 
   return(
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Techstack/>
+      <Projects/>
     </div>
   )
 

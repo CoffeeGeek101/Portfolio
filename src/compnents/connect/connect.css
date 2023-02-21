@@ -1,0 +1,92 @@
+@font-face {
+    font-family: connect-hero;
+    src: url(../../assets/MODERNA_.TTF);
+}
+.connect-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.connect-ele-i{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect-hero{
+    max-width: 150px;
+}
+
+.connect-container{
+    margin-top: 50px;
+    /* background: linear-gradient(360deg, rgba(52, 0, 115, 0.681), white); */
+}
+.connect-title{
+    font-family: connect-hero;
+    font-size: 35px;
+}
+
+.connect-des{
+    min-width: 300px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.connect-email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.email-text{
+    font-size: 14px;
+}
+
+.email-text > span{
+    font-weight: 600;
+}
+
+.connect-line{
+    font-size: 12px;
+    color: grey;
+}
+
+.email-btn{
+    border: solid 1px rgb(132, 0, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media only screen and (min-width:1000px){
+    .connect-hero{
+    max-width: 200px;
+}
+    .connect-title{
+    font-family: connect-hero;
+    font-size: 75px;
+}
+    .connect-des{
+    min-width: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -20px;
+}
+    .email-text{
+    font-size: 18px;
+}
+    .email-btn{
+    border: solid 1px rgb(132, 0, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+}

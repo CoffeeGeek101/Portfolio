@@ -15,7 +15,7 @@
 .navbar-links{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .nav-signature{
@@ -24,8 +24,8 @@
 
 .nav-link{
     font-weight: 300;
-    font-size: 13px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
     text-overflow: ellipsis;
     white-space: nowrap;
 }

@@ -5,7 +5,7 @@ export default function Aboutme() {
   return (
     <>
     {/* <img className='aboutme-hero' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/> */}
-    <div className='aboutme-container'>
+    <div id='aboutme' className='aboutme-container'>
         <div className='aboutme-wrapper'>
             <p className='aboutme-title'>About me.</p>
             <div className='bio'>
@@ -20,7 +20,7 @@ export default function Aboutme() {
                 </div>
             </div>
             <div className='more-about'>For more information</div>
-            <button className='resume-btn'>Resume</button>
+            <a href='https://drive.google.com/file/d/1-BGgtSVGjwJ_55ZlBJ0yAJhgcH5e5L_i/view'><button className='resume-btn'>Resume</button></a>
         </div>
     </div>
     </>

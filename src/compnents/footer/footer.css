@@ -3,6 +3,7 @@
     src: url(../../assets/MODERNA_.TTF);
 }
 .footer-container{
+    margin-top: 40px;
     width: 100vw;
     background-color: rgba(77, 1, 147, 0.672);
 }
@@ -18,15 +19,15 @@
 }
 
 .footer-hero{
-    max-width: 400px;
+    max-width: 300px;
     font-weight: 900;
-    font-size: 13px;
+    font-size: 12px;
     font-family: monospace;
     color: #fff;
 }
 
 .copyright{
-    font-size: 10px;
+    font-size: 8px;
     color: #39004b;
     letter-spacing: 2px;
 }

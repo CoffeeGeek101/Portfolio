@@ -17,7 +17,7 @@ export default function Projects() {
   return (
     //inner caro - project-carousel
     <>
-    <div className='project-container'> 
+    <div id='project' className='project-container'> 
         <div className='project-wrapper'> 
         <motion.div ref={carousel} whileTap={{cursor:"grabbing"}} className='caro-wrapper'> 
         <img className='project-hero' src='https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png'/>

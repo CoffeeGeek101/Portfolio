@@ -25,7 +25,7 @@ export default function Techstack() {
               <TurnLeft className='stack-waterfall'/>
               <p className='tech-name'>JavaScript</p>
               </div>
-              <img className='tech-logo' src='https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png'/>
+              <img className='tech-logo' src='https://dev-updates-uploads.s3.ap-south-1.amazonaws.com/1665673562977-Best%20way%20to%20learn%20javascript.jpg'/>
             </div>
             <div className='techstack-element'>
               <div className='tech-label'>

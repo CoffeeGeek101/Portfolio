@@ -88,13 +88,18 @@ top: 650px; */
 
 .tech-name{
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
 }
 .tech-logo{
     min-height: 120px;
     max-width: 150px;
     object-fit: cover;
     object-position: bottom;
+}
+
+.javascript{
+    min-height: 100px;
+    max-width: 110px;
 }
 
 .techstack-element:hover{
@@ -173,6 +178,10 @@ top: 650px; */
         left: -150px;
         top: 540px;
     }
+    .tech-name{
+        font-weight: 600;
+        font-size: 16px;
+    }
     
 }
 
@@ -237,5 +246,27 @@ top: 650px; */
         text-shadow: 1px 2px 50px rgb(85, 206, 246);
         white-space: nowrap;
         
+    }
+    
+    .line-i{
+        font-family: Techstack-hero;
+        font-size: 50px;
+    }
+    .line-ii{
+        font-family: Techstack-hero;
+        font-size: 40px;
+        margin-top: -10px;
+    }
+    
+    .line-ii > span{
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: 600;
+    
+    }
+    .techstack-des{
+        margin-top: -10px;
+        margin-left: 2px;
+        font-size: 18px;
     }
 }

@@ -9,7 +9,7 @@
     min-height: 70vh;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .connect-ele-i{
@@ -46,7 +46,8 @@
     gap: 10px;
 }
 .email-text{
-    font-size: 14px;
+    font-size: 13px;
+    width: 300px;
 }
 
 .email-text > span{
@@ -63,6 +64,14 @@
     padding: 10px 30px;
     border-radius: 5px;
     width: 100%;
+    transition: 1s;
+    font-weight: 600;
+}
+.email-btn:hover{
+    background-color: rgb(132, 0, 255);
+    color: #fff;
+    box-shadow: 1px 2px 10px -2px rgb(132, 0, 255);
+    transition:0.5s;
 }
 
 @media only screen and (min-width:1000px){
@@ -74,7 +83,7 @@
     font-size: 75px;
 }
     .connect-des{
-    min-width: 500;
+    min-width: 800px;
     font-size: 18px;
     text-align: center;
     margin-top: -20px;
@@ -88,5 +97,10 @@
     border-radius: 5px;
     width: 100%;
     margin-top: 5px;
+}
+.email-text{
+    /* font-size: 13px; */
+    width: 500px;
+    text-align: center;
 }
 }

@@ -49,13 +49,13 @@ export default function Hero() {
             </div>
             <div className='hero-links'>
                 <Tooltip label="CoffeeGeek101">
-                <GitHub className='link-ele git'/>
+                <a href='https://github.com/CoffeeGeek101'><GitHub className='link-ele git'/></a>
                 </Tooltip>
                 <Tooltip label="@shoumyadeep_">
-                <Twitter className='link-ele twt'/>
+                <a href='#'><Twitter className='link-ele twt'/></a> 
                 </Tooltip>
                 <Tooltip label="Shoumyadeep Narayan">
-                <LinkedIn className='link-ele linkedin'/>
+                <a href='https://www.linkedin.com/in/shoumyadeep/'><LinkedIn className='link-ele linkedin'/></a>
                 </Tooltip>
             </div>
             <div className='customer-needs'>

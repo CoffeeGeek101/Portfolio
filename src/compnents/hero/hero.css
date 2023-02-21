@@ -41,7 +41,7 @@
 
 
 .role-1{
-    font-size: 25px;
+    font-size: 20px;
     font-family: hero;
     /* padding: 7.5px 0; */
     /* -webkit-transition: 0.2s; */
@@ -50,6 +50,7 @@
     font-size: 30px;
     font-family: hero-ii;
     -webkit-transition: 0.2s;
+    
 }
 .role-4{
     font-size: 30px;

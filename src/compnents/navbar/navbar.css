@@ -30,6 +30,13 @@
     white-space: nowrap;
 }
 
+.nav-link:hover{
+    text-decoration: underline;
+    color: #fff;
+    text-shadow: 1px 2px 20px #fff;
+    font-weight: 500;
+}
+
 @media only screen and (min-width: 700px){
     .nav-signature{
         display:block;
@@ -40,7 +47,6 @@
     }
     .nav-link{
         font-weight: 200;
-        letter-spacing: 2px;
         font-size: 17px;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -49,4 +55,15 @@
         padding: 40px 20px;
     }
 
+}
+
+@media only screen and (min-width: 1000px){
+    .navbar-links{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
 }

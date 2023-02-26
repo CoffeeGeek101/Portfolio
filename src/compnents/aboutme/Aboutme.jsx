@@ -15,7 +15,7 @@ export default function Aboutme() {
             <div className='past-epx'>
                 <p className='position'>Web Developer Intern</p>
                 <div className='about-intern'>
-                    <p className='intern-des'>Collaborate with a team of developers to build modern and responsive user interfaces using the best practices. Built an admin dashboard with Charts for that tracks the information of interns, and can add Internships to the portal using forms that show us the analytics in table.</p>
+                    <p className='intern-des'>Collaborated with a team of developers to build modern and responsive user interfaces using the best practices. Built an admin dashboard with Charts for visualization that tracks the information of interns</p>
                     <img className='intern-img' src='https://uploads-ssl.webflow.com/61a8d1d6f4ba145b578385f7/62e25f0a74e45d39dd926f51_radialx%20course%20player%20logo.png'/>
                 </div>
             </div>

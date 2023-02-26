@@ -1,6 +1,7 @@
 import { Box, Button, Center, Image, Text, Tooltip } from '@chakra-ui/react'
 import { Article, GitHub, Language, LinkedIn, Twitter, WorkOutline } from '@mui/icons-material'
 import React, { useEffect, useState, useRef } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './hero.css'
 import {motion} from 'framer-motion';
 
@@ -52,15 +53,19 @@ export default function Hero() {
                 <a href='https://github.com/CoffeeGeek101'><GitHub className='link-ele git'/></a>
                 </Tooltip>
                 <Tooltip label="@shoumyadeep_">
-                <a href='#'><Twitter className='link-ele twt'/></a> 
+                <a href='https://twitter.com/Shoumyadeep_'><Twitter className='link-ele twt'/></a> 
                 </Tooltip>
                 <Tooltip label="Shoumyadeep Narayan">
                 <a href='https://www.linkedin.com/in/shoumyadeep/'><LinkedIn className='link-ele linkedin'/></a>
                 </Tooltip>
             </div>
             <div className='customer-needs'>
-            <button className='resume-redirect'><WorkOutline className='customer-logo'/>  Want a Dev</button>
+            <AnchorLink href='#connect'>
+                <button className='resume-redirect'><WorkOutline className='customer-logo'/>  Want a Dev</button>
+            </AnchorLink>
+            <AnchorLink href='#connect'>
             <button className='resume-redirect'><Language className='customer-logo'/>  Want a Site</button>
+            </AnchorLink>
             </div>
         </div>
     </div>

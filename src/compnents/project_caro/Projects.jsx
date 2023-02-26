@@ -25,19 +25,40 @@ export default function Projects() {
             <p className='project-des'>These are some of the projects I have worked on.</p>
             <motion.div drag="x" dragConstraints={{right:0, left: -width}} className='project-carousel'>
                 <div className='project'>
-                    <img className='project-img' src='https://w0.peakpx.com/wallpaper/172/343/HD-wallpaper-netflix-logo-black-logo-minimal-netflix.jpg'/>
+                    <img className='project-img' src='../../../public/chatU.png'/>
                     <div className='project-overview'>
                         <div className='about-project'>
                             <div className='project-details'>
-                                <p className='project-title'>Netflix Clone</p>
-                                <p className='project-category'>FullStack</p>
+                                <p className='project-title'>chatU</p>
+                                <p className='project-category'>Realtime Chat Application</p>
                             </div>
+                            <a className='github-linker' href='https://github.com/CoffeeGeek101/chatU'>
                             <GitHub/>
+                            </a>
                         </div>
                         <div className='project-stack'>
                             <button className='project-stack-tag'>React</button>
-                            <button className='project-stack-tag'>MonogDB</button>
-                            <button className='project-stack-tag'>Axios</button>
+                            <button className='project-stack-tag'>Firebase</button>
+                            <button className='project-stack-tag'>Framer</button>
+                            <button className='project-stack-tag'>APIs</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='project'>
+                    <img className='project-img' src='../../../public/weather.png'/>
+                    <div className='project-overview'>
+                        <div className='about-project'>
+                            <div className='project-details'>
+                                <p className='project-title'>Weather Application</p>
+                                <p className='project-category'>Modern weather UI</p>
+                            </div>
+                            <a className='github-linker' href='https://github.com/CoffeeGeek101/Modern-weather-app.'>
+                            <GitHub/>
+                            </a>
+                        </div>
+                        <div className='project-stack'>
+                            <button className='project-stack-tag'>React</button>
+                            <button className='project-stack-tag'>AsyncPaginate</button>
                             <button className='project-stack-tag'>APIs</button>
                         </div>
                     </div>
@@ -50,7 +71,9 @@ export default function Projects() {
                                 <p className='project-title'>Netflix Clone</p>
                                 <p className='project-category'>FullStack</p>
                             </div>
+                            <a className='github-linker' href='https://github.com/CoffeeGeek101/Netflix-frontend'>
                             <GitHub/>
+                            </a>
                         </div>
                         <div className='project-stack'>
                             <button className='project-stack-tag'>React</button>
@@ -61,38 +84,21 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className='project'>
-                    <img className='project-img' src='https://w0.peakpx.com/wallpaper/172/343/HD-wallpaper-netflix-logo-black-logo-minimal-netflix.jpg'/>
+                    <img className='project-img' src='../../../public/Portfolio.png'/>
                     <div className='project-overview'>
                         <div className='about-project'>
                             <div className='project-details'>
-                                <p className='project-title'>Netflix Clone</p>
-                                <p className='project-category'>FullStack</p>
+                                <p className='project-title'>Modern Portfolio UI</p>
+                                <p className='project-category'>Frontend UI</p>
                             </div>
+                            <a className='github-linker' href='https://shoumyadeep.netlify.app'>
                             <GitHub/>
+                            </a>
                         </div>
                         <div className='project-stack'>
                             <button className='project-stack-tag'>React</button>
-                            <button className='project-stack-tag'>MonogDB</button>
-                            <button className='project-stack-tag'>Axios</button>
-                            <button className='project-stack-tag'>APIs</button>
-                        </div>
-                    </div>
-                </div>
-                <div className='project'>
-                    <img className='project-img' src='https://w0.peakpx.com/wallpaper/172/343/HD-wallpaper-netflix-logo-black-logo-minimal-netflix.jpg'/>
-                    <div className='project-overview'>
-                        <div className='about-project'>
-                            <div className='project-details'>
-                                <p className='project-title'>Netflix Clone</p>
-                                <p className='project-category'>FullStack</p>
-                            </div>
-                            <GitHub/>
-                        </div>
-                        <div className='project-stack'>
-                            <button className='project-stack-tag'>React</button>
-                            <button className='project-stack-tag'>MonogDB</button>
-                            <button className='project-stack-tag'>Axios</button>
-                            <button className='project-stack-tag'>APIs</button>
+                            <button className='project-stack-tag'>Framer</button>
+                            <button className='project-stack-tag'>CSS</button>
                         </div>
                     </div>
                 </div>

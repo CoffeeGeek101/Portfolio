@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     min-width: 100vw;
-    min-height: 70vh;
+    min-height: 80vh;
     align-items: center;
     justify-content: center;
     padding: 20px 30px;
@@ -24,7 +24,7 @@
 }
 
 .connect-container{
-    margin-top: 50px;
+    margin-top: 100px;
     /* background: linear-gradient(360deg, rgba(52, 0, 115, 0.681), white); */
 }
 .connect-title{
@@ -66,12 +66,19 @@
     width: 100%;
     transition: 1s;
     font-weight: 600;
+    text-align: center;
 }
 .email-btn:hover{
     background-color: rgb(132, 0, 255);
     color: #fff;
     box-shadow: 1px 2px 10px -2px rgb(132, 0, 255);
     transition:0.5s;
+}
+
+.email-text > span:hover{
+    text-decoration: underline;
+    color: grey;
+    cursor:alias;
 }
 
 @media only screen and (min-width:1000px){

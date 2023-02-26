@@ -3,6 +3,11 @@
     src: url(../../assets/MODERNA_.TTF);
 }
 
+.github-linker:hover{
+    cursor: pointer;
+    color: rgb(157, 0, 255);
+}
+
 .project-container{
     margin-top: 50px;
     padding: 10px;

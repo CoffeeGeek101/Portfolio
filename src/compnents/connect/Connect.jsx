@@ -1,5 +1,6 @@
 import React from 'react'
 import './connect.css'
+import { EMAIL } from './email'
 export default function Connect() {
   return (
     <div id='connect' className='connect-container'>
@@ -11,7 +12,7 @@ export default function Connect() {
               <div className='connect-email'>
                   <p className='email-text'> Email me at : <span>shoumyadeepnarayan@gmail.com</span></p>
                   <p className='connect-line'>Just shoot me an email or click the button!</p>
-                  <button className='email-btn'>Email me</button>
+                  <a href={`mailto:${EMAIL}`} className='email-btn'>Email me</a>
               </div>
             </div>
         </div>

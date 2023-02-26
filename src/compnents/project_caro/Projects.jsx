@@ -25,7 +25,7 @@ export default function Projects() {
             <p className='project-des'>These are some of the projects I have worked on.</p>
             <motion.div drag="x" dragConstraints={{right:0, left: -width}} className='project-carousel'>
                 <div className='project'>
-                    <img className='project-img' src='../../../public/chatU.png'/>
+                    <img className='project-img' src='/chat-u.png'/>
                     <div className='project-overview'>
                         <div className='about-project'>
                             <div className='project-details'>
@@ -45,7 +45,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className='project'>
-                    <img className='project-img' src='../../../public/weather.png'/>
+                    <img className='project-img' src='/weather.png'/>
                     <div className='project-overview'>
                         <div className='about-project'>
                             <div className='project-details'>
@@ -84,7 +84,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className='project'>
-                    <img className='project-img' src='../../../public/Portfolio.png'/>
+                    <img className='project-img' src='/port-folio.png'/>
                     <div className='project-overview'>
                         <div className='about-project'>
                             <div className='project-details'>

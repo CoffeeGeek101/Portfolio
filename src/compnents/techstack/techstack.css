@@ -113,6 +113,11 @@ top: 650px; */
     object-fit: cover;
 }
 
+.css{
+    object-position:center;
+    object-fit: cover;
+}
+
 .code-element{
     position: absolute;
     width: 700px;

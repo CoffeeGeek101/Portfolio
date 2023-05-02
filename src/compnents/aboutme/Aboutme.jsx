@@ -9,8 +9,8 @@ export default function Aboutme() {
         <div className='aboutme-wrapper'>
             <p className='aboutme-title'>About me.</p>
             <div className='bio'>
-                <img className='profile-photo' src='https://scontent.fccu5-1.fna.fbcdn.net/v/t1.6435-9/145650218_853694495200442_3750033430878188665_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Rj3pOjXDV6sAX8LJGBJ&_nc_ht=scontent.fccu5-1.fna&oh=00_AfB0QXdVSwWUA7pBQO1v50hRBB0h68w_2cbNkNm5qm3ecQ&oe=641BA429'/>
-                <p className='bio-des'>Hi, my name is Shoumyadeep Narayan from India, I am currently a student at a local computer science university, pursuing a degree in software engineering. Specialized in frontend development, including experience with HTML5, CSS3, Javascript ES6, React.js, Redux, Node.js and MongoDB. Displayed aptitude for quickly learning new technologies as market demands change.</p>
+                <img className='profile-photo' src='/avi.jpg'/>
+                <p className='bio-des'>Hi, my name is Shoumyadeep Narayan from India, I am currently a student at a local computer science university, pursuing a degree in software engineering. Specialized in frontend development, including experience with HTML5, CSS3, Javascript ES6, TypeScript, Next.js, React.js, Redux, Zustand, Redis, Node.js and MongoDB. Displayed aptitude for quickly learning new technologies as market demands change.</p>
             </div>
             <div className='past-epx'>
                 <p className='position'>Web Developer Intern</p>
@@ -20,7 +20,7 @@ export default function Aboutme() {
                 </div>
             </div>
             <div className='more-about'>For more information</div>
-            <a href='https://drive.google.com/file/d/1-BGgtSVGjwJ_55ZlBJ0yAJhgcH5e5L_i/view'><button className='resume-btn'>Resume</button></a>
+            <a href='https://drive.google.com/file/d/1gZTcl910uRhL1QG6nW2r0q1mxg5ky6xI/view?usp=sharing'><button className='resume-btn'>Resume</button></a>
         </div>
     </div>
     </>

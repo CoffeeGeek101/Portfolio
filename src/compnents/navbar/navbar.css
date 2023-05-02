@@ -23,18 +23,18 @@
 }
 
 .nav-link{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 12px;
-    letter-spacing: 1px;
     text-overflow: ellipsis;
     white-space: nowrap;
+    transition: all;
 }
 
 .nav-link:hover{
-    text-decoration: underline;
-    color: #fff;
+    color: #d61fffad;
     text-shadow: 1px 2px 20px #fff;
     font-weight: 500;
+    transition: all;
 }
 
 @media only screen and (min-width: 700px){

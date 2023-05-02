@@ -23,9 +23,16 @@ export default function Techstack() {
             <div className='techstack-element'>
               <div className='tech-label'>
               <TurnLeft className='stack-waterfall'/>
-              <p className='tech-name'>JavaScript</p>
+              <p className='tech-name'>TypeScript</p>
               </div>
-              <img className='tech-logo' src='https://dev-updates-uploads.s3.ap-south-1.amazonaws.com/1665673562977-Best%20way%20to%20learn%20javascript.jpg'/>
+              <img className='tech-logo' src='https://cdn.hashnode.com/res/hashnode/image/upload/v1628508546375/5cUotnuhg.png'/>
+            </div>
+            <div className='techstack-element'>
+              <div className='tech-label'>
+              <TurnLeft className='stack-waterfall'/>
+              <p className='tech-name'>Next</p>
+              </div>
+              <img className='tech-logo' src='https://images.ctfassets.net/23aumh6u8s0i/c04wENP3FnbevwdWzrePs/1e2739fa6d0aa5192cf89599e009da4e/nextjs'/>
             </div>
             <div className='techstack-element'>
               <div className='tech-label'>
@@ -44,16 +51,16 @@ export default function Techstack() {
             <div className='techstack-element'>
               <div className='tech-label'>
               <TurnLeft className='stack-waterfall'/>
-              <p className='tech-name'>CSS</p>
+              <p className='tech-name'>Tailwind CSS</p>
               </div>
-              <img className='tech-logo' src='https://armyyazilim.com/wp-content/uploads/2019/10/css.png'/>
+              <img className='tech-logo css' src='https://www.devonblog.com/wp-content/uploads/2022/06/tailwind-thumb.jpg'/>
             </div>
             <div className='techstack-element'>
               <div className='tech-label'>
               <TurnLeft className='stack-waterfall'/>
-              <p className='tech-name'>Firebase</p>
+              <p className='tech-name'>Redis</p>
               </div>
-              <img className='tech-logo firebase' src='https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png'/>
+              <img className='tech-logo firebase' src='https://www.mortensi.com/wp-content/uploads/2021/10/Redis-server.jpg'/>
             </div>
             <div className='techstack-element'>
               <div className='tech-label'>

@@ -11,8 +11,7 @@ export default function Projects() {
         setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
         console.log(carousel.current.scrollWidth);
         console.log(carousel.current.offsetWidth);
-    },[])
-    console.log(width);
+    },[carousel.current.scrollWidth]);
 
   return (
     //inner caro - project-carousel
@@ -24,6 +23,45 @@ export default function Projects() {
             <p className='project-heading'>Projects.</p>
             <p className='project-des'>These are some of the projects I have worked on.</p>
             <motion.div drag="x" dragConstraints={{right:0, left: -width}} className='project-carousel'>
+            <div className='project'>
+                    <img className='project-img' src='/music.png'/>
+                    <div className='project-overview'>
+                        <div className='about-project'>
+                            <div className='project-details'>
+                                <p className='project-title'>Music</p>
+                                <p className='project-category'>Mood based Music Recommendation</p>
+                            </div>
+                            <a className='github-linker' href='https://github.com/CoffeeGeek101/Music'>
+                            <GitHub/>
+                            </a>
+                        </div>
+                        <div className='project-stack'>
+                            <button className='project-stack-tag'>NextJS</button>
+                            <button className='project-stack-tag'>Redis</button>
+                            <button className='project-stack-tag'>TailwindCSS</button>
+                            <button className='project-stack-tag'>APIs</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='project'>
+                    <img className='project-img' src='/movie.png'/>
+                    <div className='project-overview'>
+                        <div className='about-project'>
+                            <div className='project-details'>
+                                <p className='project-title'>MovieMate</p>
+                                <p className='project-category'>Latest and Trending Movie guide</p>
+                            </div>
+                            <a className='github-linker' href='https://github.com/CoffeeGeek101/MovieMate'>
+                            <GitHub/>
+                            </a>
+                        </div>
+                        <div className='project-stack'>
+                            <button className='project-stack-tag'>React</button>
+                            <button className='project-stack-tag'>ReduxSaga</button>
+                            <button className='project-stack-tag'>APIs</button>
+                        </div>
+                    </div>
+                </div>
                 <div className='project'>
                     <img className='project-img' src='/chat-u.png'/>
                     <div className='project-overview'>
@@ -60,6 +98,25 @@ export default function Projects() {
                             <button className='project-stack-tag'>React</button>
                             <button className='project-stack-tag'>AsyncPaginate</button>
                             <button className='project-stack-tag'>APIs</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='project'>
+                    <img className='project-img' src='/travel.png'/>
+                    <div className='project-overview'>
+                        <div className='about-project'>
+                            <div className='project-details'>
+                                <p className='project-title'>yourTravel</p>
+                                <p className='project-category'>Travel Agency Landing page</p>
+                            </div>
+                            <a className='github-linker' href='https://github.com/CoffeeGeek101/YourTravel'>
+                            <GitHub/>
+                            </a>
+                        </div>
+                        <div className='project-stack'>
+                            <button className='project-stack-tag'>React</button>
+                            <button className='project-stack-tag'>TailwindCSS</button>
+                            <button className='project-stack-tag'>Framer</button>
                         </div>
                     </div>
                 </div>

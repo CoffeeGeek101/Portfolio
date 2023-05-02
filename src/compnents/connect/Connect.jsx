@@ -10,7 +10,7 @@ export default function Connect() {
               <h1 className='connect-title'>Get in Touch.</h1>
               <p className='connect-des'>Currently, I'm open for freelance work and searching for a full-time job as a software engineer.</p>
               <div className='connect-email'>
-                  <p className='email-text'> Email me at : <span>shoumyadeepnarayan@gmail.com</span></p>
+                  <p className='email-text'> Email me at : <span>shoumyadeepnarayan30@gmail.com</span></p>
                   <p className='connect-line'>Just shoot me an email or click the button!</p>
                   <a href={`mailto:${EMAIL}`} className='email-btn'>Email me</a>
               </div>

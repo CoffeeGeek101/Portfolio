@@ -1,23 +1,15 @@
-import './App.css'
+import React, { Suspense } from "react"
+import FallBack from "./compnents/FallBack"
 
-import Navbar from './compnents/navbar/Navbar'
-import Hero from './compnents/hero/Hero'
-import Techstack from './compnents/techstack/Techstack'
-import Projects from './compnents/project_caro/Projects'
-import Aboutme from './compnents/aboutme/Aboutme'
-import Connect from './compnents/connect/Connect'
-import Footer from './compnents/footer/Footer'
+const Wrapper = React.lazy(()=> import('./compnents/Wrapper'))
+
 function App() {
 
   return(
-    <div className='app'>
-      <Navbar/>
-      <Hero/>
-      <Techstack/>
-      <Projects/>
-      <Aboutme/>
-      <Connect/>
-      <Footer/>
+    <div>
+      <Suspense fallback={<FallBack/>}>
+      <Wrapper/>
+      </Suspense>
     </div>
   )
 

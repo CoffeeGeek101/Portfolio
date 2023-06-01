@@ -20,7 +20,7 @@ export default function Aboutme() {
                 </div>
             </div>
             <div className='more-about'>For more information</div>
-            <a href='https://drive.google.com/file/d/1gZTcl910uRhL1QG6nW2r0q1mxg5ky6xI/view?usp=sharing'><button className='resume-btn'>Resume</button></a>
+            <a href='https://drive.google.com/file/d/1NOotLKudoTPDNOF_PtWytrQrBy6B0ETL/view?usp=share_link'><button className='resume-btn'>Resume</button></a>
         </div>
     </div>
     </>

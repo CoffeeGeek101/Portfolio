@@ -1,9 +1,9 @@
-import { Box, Button, Center, Image, Text, Tooltip } from '@chakra-ui/react'
-import { Article, GitHub, Language, LinkedIn, Twitter, WorkOutline } from '@mui/icons-material'
+import {Tooltip } from '@chakra-ui/react'
+import {GitHub, Language, LinkedIn, Twitter, WorkOutline } from '@mui/icons-material'
 import React, { useEffect, useState, useRef } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './hero.css'
-import {motion} from 'framer-motion';
+import {motion, useScroll, useTransform} from 'framer-motion';
 
 
 export default function Hero() {
@@ -39,16 +39,34 @@ export default function Hero() {
         
     },[]);
 
+
+
   return (
     <div className='hero-container'>
         <div className='hero-wrapper'>
-            <img className='hero-logo' src='https://media2.giphy.com/media/EZ9X7p7g6x1EK1jEIR/giphy.gif?cid=ecf05e47i29pvl6b6hv5byalg4kgqcbqblizpsnz5rwg2646&rid=giphy.gif&ct=s' alt='geek'/>
+            <motion.img
+                initial={{opacity: 0, scale: 0.5}}
+                animate={{opacity: 1, scale: 1, transition: {duration: 1.5}}}
+            className='hero-logo' src='/portHero.webp' alt='geek'/>
+            
             <div className='hero-element-wrapper'>
-                <p className='name'>My name is <em>Shoumyadeep</em>. I'm a</p>
-                <p className={`${role}`}> SOFTWARE ENGINEER</p>
-                <p className='hero-des'>I help people built interactive interfaces for their business. We might make a good team.</p>
+                <motion.p
+                initial={{opacity: 0, y: -10}}
+                animate={{opacity: 1, y: 0, transition: {duration: 1}}}
+                className='name'>My name is <em>Shoumyadeep</em>. I'm a</motion.p>
+                <motion.p
+                initial={{opacity: 0, y: -10}}
+                animate={{opacity: 1, y: 0, transition: {duration: 1, delay: 1}}}
+                className={`${role}`}> SOFTWARE ENGINEER</motion.p>
+                <motion.p 
+                initial={{opacity: 0, y: -10}}
+                animate={{opacity: 1, y: 0, transition: {duration: 1, delay: 1.5}}}
+                className='hero-des'>I help people built interactive interfaces for their business. We might make a good team.</motion.p>
             </div>
-            <div className='hero-links'>
+            <motion.div
+            initial={{opacity: 0, scale: 0.8}}
+            animate={{opacity: 1, scale:1, transition: {duration: 0.5, delay: 2}}}
+            className='hero-links'>
                 <Tooltip label="CoffeeGeek101">
                 <a href='https://github.com/CoffeeGeek101'><GitHub className='link-ele git'/></a>
                 </Tooltip>
@@ -58,15 +76,18 @@ export default function Hero() {
                 <Tooltip label="Shoumyadeep Narayan">
                 <a href='https://www.linkedin.com/in/shoumyadeep/'><LinkedIn className='link-ele linkedin'/></a>
                 </Tooltip>
-            </div>
-            <div className='customer-needs'>
+            </motion.div>
+            <motion.div 
+            initial={{opacity: 0, scale: 0.8}}
+            animate={{opacity: 1, scale:1, transition: {duration: 0.5, delay: 2}}}
+            className='customer-needs'>
             <AnchorLink href='#connect'>
-                <button className='resume-redirect'><WorkOutline className='customer-logo'/>  Want a Dev</button>
+                <button className='resume-redirect'><WorkOutline className='customer-logo' style={{marginRight:'2px'}}/>  Want a Dev</button>
             </AnchorLink>
             <AnchorLink href='#connect'>
-            <button className='resume-redirect'><Language className='customer-logo'/>  Want a Site</button>
+            <button className='resume-redirect'><Language className='customer-logo' style={{marginRight:'2px'}}/>  Want a Site</button>
             </AnchorLink>
-            </div>
+            </motion.div>
         </div>
     </div>
   )

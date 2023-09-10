@@ -47,7 +47,6 @@
 }
 .email-text{
     font-size: 13px;
-    width: 300px;
 }
 
 .email-text > span{
@@ -107,7 +106,7 @@
 }
 .email-text{
     /* font-size: 13px; */
-    width: 500px;
+    width: 100%;
     text-align: center;
 }
 }

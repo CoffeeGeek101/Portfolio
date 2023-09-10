@@ -11,7 +11,7 @@ export const techstack = [
     },
     {
         name : 'React',
-        img : 'https://www.komododigital.co.uk/app/uploads/2021/05/React-1.jpg',
+        img : 'https://react.dev/images/og-home.png',
         
     },
     {
